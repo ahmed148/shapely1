@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+
+}
+body img{
+width: 110%;
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #f9f8f8;
+}
+header .row{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(0, 0, 0, 0.466);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 190px;
+    
+}
+nav ul a{
+    list-style: none;
+    margin: 15px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.678);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul a:hover{
+    text-decoration: none;
+    color: #5d47d7;
+}
+main{
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+main .container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-25%);
+}
+main h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+main h4{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.button{
+    margin-top: 15px;
+}
+main .download{
+    padding-left: 60px;
+}
+.download a{
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.download a:hover{
+    background-color: white;
+    color: black;
+}
+.read a{
+    background: #5d47d7;
+    border-color: #5d47d7;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.read a:hover{
+    background-color: #4b39af;
+    color: white;
+}
+#download{
+    padding: 15px 40px;
+}
+#read{
+    padding: 15px 50px;
+}
+.contant{
+    margin: 80px;
+}
+.section1 p{
+    color: silver;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+#read3{
+    padding: 15px 50px;
+    margin-left: 30%;
+}
+.contant2{
+    margin: 80px;
+}
+.section2 p{
+    color: silver;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+#read4{
+    padding: 15px 50px;
+    margin-left: 25%;
+}
+.section2{
+    background-color: #f9f8f8;
+}
+.section3{
+    background-image: url("https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.section3 .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+}
+.section3 h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.section3 h4{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+#read2{
+    padding: 15px 50px;
+    margin-left: 60%;
+}
+
+.section4{
+    background-color: #f9f8f8;
+}
+.section4 h2{
+    margin-left: 40%;
+    margin-top: 25px;
+}
+.section4 p{
+    margin-top: 5px;
+    margin-left: 25%;
+    text-align: center;
+    color: rgba(192, 192, 192, 0.753);
+}
+.section4 img{
+    width: 100%;
+}
+#download2{
+    padding: 15px 50px;
+    margin-left: 40%;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.section5{
+    background-color: #000000cf;
+}
+.section5 h2{
+    margin-left: 40%;
+    color: white;
+    font-family: serif;
+}
+.section5 h5{
+    margin-left: 38%;
+    color: white;
+    font-size: 16px;
+    font-family: initial;
+}
+.section5 img{
+    height: 220px;
+}
+.section6{
+    background-image: url("https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.section6 img{
+    width: 150px;
+}
+.section6 h2{
+    margin-left: 35%;
+    margin-top: 7%;
+    color: white;
+}
+.section6 p{
+    color: white;
+    text-align: center;
+    width: 75%;
+    margin-left: 14%;
+}
+.section6 img{
+    margin-left: 45%;
+    border-radius: 50%;
+}
+.carousel-control.left ,.carousel-control.right{
+    background-image: none;
+}
+.section7{
+    background-color: #ececec;
+    height: 250px;
+}
+.section7 h1{
+    margin-top: 15%;
+    color: #000000b0;
+}
+.section7 #download2{
+    margin-top: 30%;
+    margin-left: 20%;
+}
+footer{
+    background-color: #0e1015;
+    height: 150px;
+}
+footer h4{
+    color: silver;
+    margin-top: 8%;
+}
+footer i{
+    margin-top: 25%;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+color: silver;
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    * {
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    body img{
+    width: 110%;
+    }
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    main{
+        background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    main .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    main h1{
+        font-size: 60px;
+    }
+    main .download {
+        padding-left: 90px;
+    }
+    #read {
+        padding: 15px 58px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .contant,.contant2 {
+        margin: 10px;
+    }
+    .section1 h2,.section2 h2{
+        text-align: center;
+    }
+    #read3 {
+        margin-left: 25%;
+    }
+    #read4 {
+        margin-left: 25%;
+        padding: 15px 35px;
+    }
+    .section3 {
+        background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .section3 .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #read2 {
+        margin-left: 25%;
+    }
+    .section4 h2 {
+        margin-left: 20%;
+    }
+    .section4 p {
+        margin-left: 0%;
+
+    }
+    
+#download2 {
+    margin-left: 20%;
+}
+.section5 h2 {
+    margin-left: 20%;
+}
+.section5 h5 {
+    margin-left: 13%;
+}
+.section6 h2 {
+    margin-left: 6%;
+}
+.section6 img {
+    margin-left: 30%;
+}
+.section7 #download2 {
+    margin-top: 0%;
+    margin-left: 15%;
+}
+}
+@media(min-width:320px) and (max-width:568px){
+   
+}
+@media(min-width:768px)and (max-width:1024px){  /* tablet  768-991 */  
+  
+}
